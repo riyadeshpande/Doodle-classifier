@@ -4,31 +4,32 @@ This is a doodle classifier made using CNN.
 
 <h1> Doodle Classifier </h1>
 
-###  This is a real time doodle classifier that asks the user to draw a picture of an object taken from the 20 classes defined in its database, then uses the concept of Convolutional Neural Networks and Deep Learning to guess the drawing. Similar to Quick, Draw! by Google: ###
+**This is a real time doodle classifier that asks the user to draw a picture of an object taken from the 20 classes defined in its database, then uses the concept of Convolutional Neural Networks and Deep Learning to guess the drawing. Similar to Quick, Draw! by Google:**
 
 https://user-images.githubusercontent.com/88222224/137583437-30ade51e-c017-4e90-a033-a653601fdb54.mp4
 
 <h1> Dataset </h1>
 
-### The dataset consisted of 2807037 total images of size 28x28 which were grouped into 20 classes, out of which, 2045200 images were used for training and 761837 for testing. ###
+**The dataset consisted of 2807037 total images of size 28x28 which were grouped into 20 classes, out of which, 2045200 images were used for training and 761837 for testing.**
 **Dataset link: https://drive.google.com/drive/folders/1Xep-ZNaoArr-rfSKiyqZzURDufMZxJmM?usp=sharing** 
 
 <h1> Libraries </h1>
 
-**1. Matplotlib- used for plotting graph of cost vs epochs and displaying images of dataset
+1. Matplotlib- used for plotting graph of cost vs epochs and displaying images of dataset
 2. Numpy- used to represent images as arrays (pixel by pixel), and to perform matrix operations 
 3. OpenCV- used for making the virtual drawing pad
-4. Pytorch- library used for Machine Learning applications using GPUs and CPUs, has automatic differentiation and other functions used in this project which makes the code cleaner and easy to implement.** 
+4. Pytorch- library used for Machine Learning applications using GPUs and CPUs, has automatic differentiation and other functions used in this project which makes the code cleaner and easy to implement.
+
 
 <h1> Approach </h1>
 
-At first, we learned the **basic concepts of Machine Learning** like weights, biases, logistic regression, forword prop, gradient descent, backward prop, vectorization, one hot vector, mini batches etc.
+1. At first, we learned the **basic concepts of Machine Learning** like weights, biases, logistic regression, forword prop, gradient descent, backward prop, vectorization, one hot vector, mini batches etc.
 
-Then we developed a **Digit Classifier using MNIST** dataset. We wrote the code to all functions like initialising parameters, forward and backward prop, computing derivatives, activation functions, one hot vector and upgrading parameters. We experimented with number of hidden layers in our Neural Network, size of hidden layer, different activation functions, learning rate, batch size, number of epochs and number of iterations per epoch to check which one gives better accuracy.
+2. Then we developed a **Digit Classifier using MNIST** dataset. We wrote the code to all functions like initialising parameters, forward and backward prop, computing derivatives, activation functions, one hot vector and upgrading parameters. We experimented with number of hidden layers in our Neural Network, size of hidden layer, different activation functions, learning rate, batch size, number of epochs and number of iterations per epoch to check which one gives better accuracy.
 We practised **CNN using PyTorch on MNIST** before implementing it on our actual Doodle-Classifier dataset.
 
-We learned about convolution of images with filters, concept of stride, maxpooling and padding. After multiple convolutional layers, the input representation is flattened into a feature vector and passed through a network of neurons to predict the output probabilities. Coding **CNN using PyTorch on Doodle-Classifier dataset** helped understand these concepts better.
+3. We learned about convolution of images with filters, concept of stride, maxpooling and padding. After multiple convolutional layers, the input representation is flattened into a feature vector and passed through a network of neurons to predict the output probabilities. Coding **CNN using PyTorch on Doodle-Classifier dataset** helped understand these concepts better.
 
-A Drawing Pad of 600x600 and pen of thickness 9 is also created for the user to doodle on, utilizing the mouse events available in OpenCV. This image is then resized to 28x28 and passed to the trained CNN model for classification.
+4. A **Drawing Pad** of 600x600 and pen of thickness 9 is also created for the user to doodle on, utilizing the mouse events available in OpenCV. This image is then resized to 28x28 and passed to the trained CNN model for classification.
 
 
