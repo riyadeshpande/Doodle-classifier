@@ -58,4 +58,5 @@ We practised **CNN using PyTorch on MNIST** before implementing it on our actual
 | Epochs | 10 |
 |  Batch Size | 1024 | 
 | Optimizer| SGD |
+| Loss function | Cross Entropy Loss
 
