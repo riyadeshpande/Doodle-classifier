@@ -21,4 +21,14 @@ https://user-images.githubusercontent.com/88222224/137583437-30ade51e-c017-4e90-
 4. Pytorch- library used for Machine Learning applications using GPUs and CPUs, has automatic differentiation and other functions used in this project which makes the code cleaner and easy to implement.** 
 
 <h1> Approach </h1>
-![This is a duck](images/testgraph.png)
+
+At first, we learned the **basic concepts of Machine Learning** like weights, biases, logistic regression, forword prop, gradient descent, backward prop, vectorization, one hot vector, mini batches etc.
+
+Then we developed a **Digit Classifier using MNIST** dataset. We wrote the code to all functions like initialising parameters, forward and backward prop, computing derivatives, activation functions, one hot vector and upgrading parameters. We experimented with number of hidden layers in our Neural Network, size of hidden layer, different activation functions, learning rate, batch size, number of epochs and number of iterations per epoch to check which one gives better accuracy.
+We practised **CNN using PyTorch on MNIST** before implementing it on our actual Doodle-Classifier dataset.
+
+We learned about convolution of images with filters, concept of stride, maxpooling and padding. After multiple convolutional layers, the input representation is flattened into a feature vector and passed through a network of neurons to predict the output probabilities. Coding **CNN using PyTorch on Doodle-Classifier dataset** helped understand these concepts better.
+
+A Drawing Pad of 600x600 and pen of thickness 9 is also created for the user to doodle on, utilizing the mouse events available in OpenCV. This image is then resized to 28x28 and passed to the trained CNN model for classification.
+
+
