@@ -21,4 +21,4 @@ https://user-images.githubusercontent.com/88222224/137583437-30ade51e-c017-4e90-
 4. Pytorch- library used for Machine Learning applications using GPUs and CPUs, has automatic differentiation and other functions used in this project which makes the code cleaner and easy to implement.** 
 
 <h1> Approach </h1>
-![This is a duck](images/test_duck.jpeg)
+![This is a duck](images/testgraph.png)
