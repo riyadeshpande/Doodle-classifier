@@ -32,4 +32,30 @@ We practised **CNN using PyTorch on MNIST** before implementing it on our actual
 
 4. A **Drawing Pad** of 600x600 and pen of thickness 9 is also created for the user to doodle on, utilizing the mouse events available in OpenCV. This image is then resized to 28x28 and passed to the trained CNN model for classification.
 
+# **CNN Model**
+## **Architecture**
+
+***Convolution Layer***
+
+| Layers   | Kernel size | Filters | Maxpool | Padding|
+| -------- | --------    | ------- | ------- | ------ |
+| conv1    | (5,5) | 6 | (2,2)   | 0      |
+| conv2    | (5,5)       | 16       | (2,2)   | 0      |
+
+
+***Fully Connected Layer***
+
+| Layer | Size |
+| -------- | -------- | 
+| FC1    | 16x4x4, 120 | 
+| FC1    | 120, 84| 
+| FC1    | 84, 20     | 
+
+***Hyperparameters***
+| Parameter | Value |
+| ---- | --- |
+| Learning rate | 0.01 |
+| Epochs | 10 |
+|  Batch Size | 1024 | 
+| Optimizer| SGD |
 
