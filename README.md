@@ -66,3 +66,5 @@ We practised **CNN using PyTorch on MNIST** before implementing it on our actual
 | Test | 85.36% |
 
 ## **Final outcome of the model**
+
+![](images/doodle.gif)
