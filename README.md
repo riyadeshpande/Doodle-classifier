@@ -23,7 +23,7 @@
 
 2. Then we developed a **Digit Classifier using MNIST** dataset by writing the code to all functions like initialising parameters, forward and backward prop, computing derivatives, activation functions, one hot vector and upgrading parameters. We experimented with the hyperparameters to check which one gives better accuracy.
 
-3. We learned about convolution of images with filters, concept of stride, maxpooling and padding. After multiple convolutional layers, the input representation is flattened into a feature vector and passed through a network of neurons to predict the output probabilities. Coding **CNN using PyTorch on Doodle-Classifier dataset** helped understand these concepts better.
+3. We learned about convolution of images with filters, concept of stride, maxpooling and padding. After multiple convolutional layers, the input representation is flattened into a feature vector and passed through a network of neurons to predict the output probabilities. Applying **CNN using PyTorch on MNIST** and **Doodle-Classifier dataset** helped understand these concepts better.
 
 4. A **Drawing Pad** of 600x600 and pen of thickness 9 is also created for the user to doodle on, utilizing the mouse events available in OpenCV. This image is then resized to 28x28 and passed to the trained CNN model for classification.
 
