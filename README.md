@@ -60,6 +60,13 @@ We practised **CNN using PyTorch on MNIST** before implementing it on our actual
 | Optimizer| SGD |
 | Loss function | Cross Entropy Loss
 
-# **Output**
-![A plot of ocst vs epochs]()
+# **Output of the model**
 
+![A plot of cost vs epochs](images/cost_vs_epochs.jpeg)
+
+| Dataset | Accuracy |
+| ---- |---- |
+| Train| 85.5% |
+| Test | 85.3% |
+
+## **Result of the model**
