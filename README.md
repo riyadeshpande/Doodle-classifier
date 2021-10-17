@@ -2,7 +2,7 @@
 
 **This is a real time doodle classifier that asks the user to draw a picture of an object taken from the 20 classes defined in its database, then uses the concept of Convolutional Neural Networks and Deep Learning to guess the drawing. Similar to Quick, Draw! by Google:**
 
-https://user-images.githubusercontent.com/88222224/137583437-30ade51e-c017-4e90-a033-a653601fdb54.mp4
+![](images/quickdrawgif.gif)
 
 <h1> Dataset </h1>
 
