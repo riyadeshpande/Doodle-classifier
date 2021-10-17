@@ -27,10 +27,6 @@
 
 4. A **Drawing Pad** of 600x600 and pen of thickness 9 is also created for the user to doodle on, utilizing the mouse events available in OpenCV. This image is then resized to 28x28 and passed to the trained CNN model for classification.
 
-# Resources used:
-- [Coursera Deep Learning](https://www.coursera.org/specializations/deep-learning)
-- [Pytorch documentation](https://pytorch.org/docs/stable/index.html)
-
 # **CNN Model**
 ## **Architecture**
 
@@ -71,3 +67,7 @@
 ## **Final outcome of the model**
 
 ![](images/doodle.gif)
+
+# Resources used:
+- [Coursera Deep Learning](https://www.coursera.org/specializations/deep-learning)
+- [Pytorch documentation](https://pytorch.org/docs/stable/index.html)
