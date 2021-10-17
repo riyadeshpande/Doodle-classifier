@@ -62,7 +62,7 @@ We practised **CNN using PyTorch on MNIST** before implementing it on our actual
 
 | Dataset | Accuracy |
 | ---- |---- |
-| Train| 85.5% |
-| Test | 85.3% |
+| Train| 85.54% |
+| Test | 85.36% |
 
 ## **Final outcome of the model**
