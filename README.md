@@ -56,7 +56,10 @@ We practised **CNN using PyTorch on MNIST** before implementing it on our actual
 | ---- | --- |
 | Learning rate | 0.01 |
 | Epochs | 10 |
-|  Batch Size | 1024 | 
+|  Batch Size | 4096 | 
 | Optimizer| SGD |
 | Loss function | Cross Entropy Loss
+
+# **Output**
+![A plot of ocst vs epochs]()
 
